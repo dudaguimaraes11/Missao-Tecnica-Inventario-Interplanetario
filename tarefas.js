@@ -109,3 +109,8 @@ let primeiroElementoExcluido = inventarioBeta.shift();
 console.log("Inventário corrigido após remoção do item que pertence a um museu :", inventarioBeta);
 
 console.log("Item removido:", primeiroElementoExcluido);
+
+// 12. Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
+
+console.log(`Os 10 primeiros itens do Inventário Beta (índices 0 a 11): ${inventarioBeta.slice(0, 10)}`);
+
