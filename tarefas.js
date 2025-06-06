@@ -122,3 +122,11 @@ console.log (`Novo inventário para inspeção com os 5 primeiros itens do Inven
 // 14. Separe os 10 últimos itens do inventário Alpha para estudo temporal.
 
 console.log(`Os 10 últimos itens do Inventário Alpha para estudo temporal: ${inventarioAlpha.slice(17, 28)}`);
+
+// 15. O quinto item da Alpha foi substituído por uma versão mais moderna. Atualize.
+
+let elementoAlterado = inventarioAlpha.splice(5, 1, "Ampulheta Galáctica 2.0");
+
+console.log(`Inventário após a substituição: ${inventarioAlpha.join(', ')}`);
+console.log(`Elementos removido e alterado: ${elementoAlterado.join(', ')}`);
+
