@@ -134,3 +134,11 @@ console.log(`Elementos removido e alterado: ${elementoAlterado.join(', ')}`);
 
 inventarioBeta.splice(4, 2); 
 console.log(`Novo inventário:`, inventarioBeta);
+
+
+// 17. Unifique os inventários Alpha e Beta em uma única estrutura.
+
+console.log(`Inventários Alpha e Beta combinados: ${inventarioAlpha.concat(inventarioBeta)}`);
+
+
+
