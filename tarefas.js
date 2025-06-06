@@ -87,4 +87,10 @@ inventarioAlpha.unshift(itemDestacado);
 inventarioAlpha.splice (15,1); 
 console.log ("Inventário com item destacado:" , inventarioAlpha);
 
+// 6. Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
+
+let itemPrioritario = inventarioBeta[5];  
+inventarioBeta.unshift(itemPrioritario); 
+inventarioBeta.splice (6,1); 
+console.log ("Inventário com item prioritário no início:" , inventarioBeta);
 
