@@ -75,3 +75,7 @@ console.log("Artefato obsoleto removido após avaliação técnica:", artefatoRe
 inventarioAlpha.push(["Cristal azul", "Terra", 4600], ["Máquina Quântica", "Terra", 9000], ["Relógio de plasma", "Terra", 3090]);
 console.log("Inventário atualizado com três novos artefatos entregues à nave Alpha:", inventarioAlpha);
 
+// 4. Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
+
+inventarioBeta.push(["Partícula de luz azul", "Kepler", 8600], ["Pó Solar", "Kepler", 3820], ["Orbe Temporal", "kepler", 5700]);
+console.log("Inventário atualizado com dois novos artefatos coletados de Kepler entregues à nave Beta:", inventarioBeta);
