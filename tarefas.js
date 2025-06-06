@@ -69,3 +69,9 @@ let artefatoRemovido = inventarioBeta.pop();
 
 console.log("Após a remoção da cópia:", inventarioBeta);
 console.log("Artefato obsoleto removido após avaliação técnica:", artefatoRemovido);
+
+// 3. Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
+
+inventarioAlpha.push(["Cristal azul", "Terra", 4600], ["Máquina Quântica", "Terra", 9000], ["Relógio de plasma", "Terra", 3090]);
+console.log("Inventário atualizado com três novos artefatos entregues à nave Alpha:", inventarioAlpha);
+
