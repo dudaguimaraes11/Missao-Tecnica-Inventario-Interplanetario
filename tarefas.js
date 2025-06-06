@@ -121,4 +121,4 @@ console.log (`Novo inventário para inspeção com os 5 primeiros itens do Inven
 
 // 14. Separe os 10 últimos itens do inventário Alpha para estudo temporal.
 
-console.log(`Os 10 últimos itens do Inventário Alpha para estudo temporal: ${inventarioAlpha.slice(15, 25)}`);
+console.log(`Os 10 últimos itens do Inventário Alpha para estudo temporal: ${inventarioAlpha.slice(17, 28)}`);
