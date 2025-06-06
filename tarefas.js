@@ -149,6 +149,7 @@ console.log(`Nova vitrine de destaques: ${novoInventarioAlpha.concat(novoInventa
 
 // 26. Inverta a ordem dos 15 primeiros itens da Alpha como simulação de viagem no tempo
 
-let inventarioAlphaInvertido = inventarioAlpha.reverse();
-
-console.log("Inventário invertido:", inventarioAlphaInvertido); 
+let inventarioAlphaInvertido = inventarioAlpha.slice(0,16); 
+let ultimosItens = inventarioAlpha.slice(17, 28);
+console.log("Inventário invertido:", inventarioAlphaInvertido.reverse()); 
+console.log(`Inventário Alpha com os 15 primeiros itens invertidos: ${inventarioAlphaInvertido.concat(ultimosItens)}`);
