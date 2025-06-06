@@ -79,3 +79,12 @@ console.log("Inventário atualizado com três novos artefatos entregues à nave 
 
 inventarioBeta.push(["Partícula de luz azul", "Kepler", 8600], ["Pó Solar", "Kepler", 3820], ["Orbe Temporal", "kepler", 5700]);
 console.log("Inventário atualizado com dois novos artefatos coletados de Kepler entregues à nave Beta:", inventarioBeta);
+
+// 5. Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+
+let itemDestacado = inventarioAlpha [14]; 
+inventarioAlpha.unshift(itemDestacado); 
+inventarioAlpha.splice (15,1); 
+console.log ("Inventário com item destacado:" , inventarioAlpha);
+
+
