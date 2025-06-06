@@ -102,3 +102,10 @@ console.log("Inventário corrigido após remoção de elemento incorreto:", inve
 
 console.log("Artefato removido:", artefatoExcluido);
 
+// 8. O primeiro item da Beta pertence a um museu e deve ser removido.
+
+let primeiroElementoExcluido = inventarioBeta.shift();
+
+console.log("Inventário corrigido após remoção do item que pertence a um museu :", inventarioBeta);
+
+console.log("Item removido:", primeiroElementoExcluido);
