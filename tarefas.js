@@ -118,3 +118,7 @@ console.log(`Os 10 primeiros itens do Inventário Beta (índices 0 a 11): ${inve
 
 let novoInventario = inventarioBeta.splice(0, 5); 
 console.log (`Novo inventário para inspeção com os 5 primeiros itens do Inventário Beta`, novoInventario)
+
+// 14. Separe os 10 últimos itens do inventário Alpha para estudo temporal.
+
+console.log(`Os 10 últimos itens do Inventário Alpha para estudo temporal: ${inventarioAlpha.slice(15, 25)}`);
