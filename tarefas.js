@@ -114,3 +114,7 @@ console.log("Item removido:", primeiroElementoExcluido);
 
 console.log(`Os 10 primeiros itens do Inventário Beta (índices 0 a 11): ${inventarioBeta.slice(0, 10)}`);
 
+// 13. Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+
+let novoInventario = inventarioBeta.splice(0, 5); 
+console.log (`Novo inventário para inspeção com os 5 primeiros itens do Inventário Beta`, novoInventario)
