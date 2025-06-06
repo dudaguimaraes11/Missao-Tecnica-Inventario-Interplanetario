@@ -28,4 +28,4 @@ let inventarioBeta = [
   ];
   
   inventarioBeta.push(["Partícula de luz azul", "Kepler", 8600], ["Pó Solar", "Kepler", 3820], ["Orbe Temporal", "kepler", 5700]);
-  console.log("Inventário atualizado com três novos artefatos coletados de Kepler entregues à nave Beta:", inventarioBeta);
+  console.log("Inventário atualizado com dois novos artefatos coletados de Kepler entregues à nave Beta:", inventarioBeta);
