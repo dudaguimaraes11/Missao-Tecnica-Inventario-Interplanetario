@@ -140,5 +140,12 @@ console.log(`Novo inventário:`, inventarioBeta);
 
 console.log(`Inventários Alpha e Beta combinados: ${inventarioAlpha.concat(inventarioBeta)}`);
 
+// 18. Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
 
+let novoInventarioBeta = inventarioBeta.splice(0, 5); 
+let novoInventarioAlpha = inventarioAlpha.splice(0,5); 
+
+console.log(`Nova vitrine de destaques: ${novoInventarioAlpha.concat(novoInventarioBeta)}`);
+
+// 19. Crie uma versão com os nomes de todos os itens da Beta em letras maiúsculas.
 
