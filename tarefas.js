@@ -130,3 +130,7 @@ let elementoAlterado = inventarioAlpha.splice(5, 1, "Ampulheta Galáctica 2.0");
 console.log(`Inventário após a substituição: ${inventarioAlpha.join(', ')}`);
 console.log(`Elementos removido e alterado: ${elementoAlterado.join(', ')}`);
 
+// 16. Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos
+
+inventarioBeta.splice(4, 2); 
+console.log(`Novo inventário:`, inventarioBeta);
