@@ -94,3 +94,11 @@ inventarioBeta.unshift(itemPrioritario);
 inventarioBeta.splice (6,1); 
 console.log ("Inventário com item prioritário no início:" , inventarioBeta);
 
+// 7. Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
+
+let artefatoExcluido = inventarioAlpha.shift();
+
+console.log("Inventário corrigido após remoção de elemento incorreto:", inventarioAlpha);
+
+console.log("Artefato removido:", artefatoExcluido);
+
